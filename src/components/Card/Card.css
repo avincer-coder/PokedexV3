@@ -1,0 +1,112 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  box-shadow: 10px 10px 20px 0px black;
+  border-radius: 15px;
+}
+
+/* .electric{
+  background-color: yellow;
+}
+
+.normal{
+  background-color: rgb(156, 156, 156);
+} */
+
+.bug {
+  background-color: #A8B820;
+}
+
+.dragon {
+  background-color: #7030A0;
+}
+
+.electric {
+  background-color: #FFFF00;
+}
+
+.fairy {
+  background-color: #E69C9C;
+}
+
+.fighting {
+  background-color: #D32B7E;
+}
+
+.fire {
+  background-color: #FF0000;
+}
+
+.flying {
+  background-color: #A0C0FF;
+}
+
+.ghost {
+  background-color: #708090;
+}
+
+.grass {
+  background-color: #87CEFA;
+}
+
+.ground {
+  background-color: #D2691E;
+}
+
+.ice {
+  background-color: #9D38BD;
+}
+
+.normal {
+  background-color: #999696;
+}
+
+.poison {
+  background-color: #DAA520;
+}
+
+.psychic {
+  background-color: #FF69B4;
+}
+
+.rock {
+  background-color: #B22222;
+}
+
+.steel {
+  background-color: #B8860B;
+}
+
+.water {
+  background-color: #00FFFF;
+}
+
+section > div {
+  height: 300px;
+  width: 300px;
+}
+
+section > div > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+table {
+  border: 1px solid;
+  border-radius: 5px;
+  width: 350px;
+  
+  margin-bottom: 30px;
+
+}
+
+tbody > tr > td:last-child {
+  text-align: end;
+}
+
+td {
+  font-size: 1rem;
+}
